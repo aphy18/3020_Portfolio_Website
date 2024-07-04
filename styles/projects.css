@@ -88,3 +88,29 @@
   font-size: 1.5em;
   align-self: start;
 }
+
+
+@media(max-width: 800px) {
+  .project-img-container {
+    flex-direction: column;
+  }
+  .project img {
+    margin: 1em 0;
+  }
+
+  .project-description-container {
+    height: 500px;
+  }
+
+  .project-description-title,
+  .project-description,
+  .project-tech,
+  .tech-list {
+    width: 100%;
+  }
+
+  .project-description-title,
+  .project-tech {
+    margin: 1em 0;
+  }
+}
