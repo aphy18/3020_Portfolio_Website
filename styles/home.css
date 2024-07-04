@@ -1,0 +1,85 @@
+.home-container {
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.home-container h1 {
+  font-size: 65px;
+  margin: 0.5em;
+  align-self: center;
+}
+
+.intro-container {
+  /* border: 2px solid black; */
+  width: 75%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.intro-container p {
+  font-size: 1.5em;
+  padding: 1em;
+  line-height: 40px;
+}
+
+.intro-img-container {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.intro-img-container p {
+  display: block;
+}
+
+.img-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.img-container p {
+  font-size: 20px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+#img-1,
+#img-2,
+#img-3 {
+  width: 400px;
+  height: 400px;
+  object-fit: scale-down;
+  transition: transform 0.2s ease;
+}
+
+#img-1:hover,
+#img-2:hover,
+#img-3:hover {
+  transform: translateY(-12px);
+}
+
+#img-1:hover + p,
+#img-2:hover + p,
+#img-3:hover + p {
+  opacity: 1;
+}
+
+
+
+
+

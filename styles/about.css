@@ -1,0 +1,32 @@
+.about-container {
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container h1 {
+  font-size: 65px;
+  margin: 0.5em;
+  align-self: center;
+}
+
+.about-paragraph {
+  border: 2px solid blue;
+  height: 1600px;
+  font-size: 1.5em;
+  line-height: 50px;
+
+}
+
+.about-paragraph p {
+  width: 50%;
+}
+
+.about-paragraph p,
+.about-paragraph h2 {
+  margin: 0.5em;
+}
+
+
