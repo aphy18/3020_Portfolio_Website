@@ -11,7 +11,9 @@
 .projects-title {
   font-size: 65px;
   margin: 0.5em;
+ 
 }
+
 
 .projects-summary {
   font-size: 1.5em;
@@ -49,6 +51,7 @@
   text-decoration: none;
   font-size: 2.5em;
   margin: 1em 0;
+  color: inherit;
 }
 
 .project img {
@@ -90,7 +93,7 @@
 }
 
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
   .project-img-container {
     flex-direction: column;
   }
@@ -99,7 +102,7 @@
   }
 
   .project-description-container {
-    height: 500px;
+    height: 550px;
   }
 
   .project-description-title,
