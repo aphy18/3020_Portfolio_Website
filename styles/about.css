@@ -4,6 +4,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .about-container h1 {

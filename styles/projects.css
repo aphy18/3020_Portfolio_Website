@@ -48,7 +48,16 @@
   font-size: 2.5em;
   margin: 1em 0;
   color: inherit;
+  transition: color 0.2s ease;
 }
+
+#project-title-1:hover,
+#project-title-2:hover,
+#project-title-3:hover {
+  color: red;
+}
+
+
 
 .project img {
   object-fit: scale-down;
@@ -110,5 +119,11 @@
   .project-description-title,
   .project-tech {
     margin: 1em 0;
+  }
+
+  #project-title-1,
+  #project-title-2,
+  #project-title-3 {
+    font-size: 1.5em;
   }
 }
