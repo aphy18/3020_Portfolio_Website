@@ -1,5 +1,4 @@
 .home-container {
-  border: 2px solid red;
   width: 100%;
   height: auto;
   display: flex;
@@ -15,14 +14,14 @@
 }
 
 .intro-container {
-  border: 2px solid black;
   width: 75%;
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  margin: 1.5em;
+  margin: 1.15em;
+  border-radius: 6px;
 }
 
 .intro-container p {
@@ -32,12 +31,14 @@
 }
 
 .intro-img-container {
-  border: 2px solid green;
-  width: 100%;
-  height: 700px;
+  width: 98%;
+  height: 600px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  align-self: center;
+  margin: 1em 0;
+  border-radius: 6px;
 }
 
 .intro-img-container p {
