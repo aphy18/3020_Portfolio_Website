@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Light/Dark Button",
+    "body": "The light/dark toggler was made by first adding a new anchor tag to the navigation bar, with the idea that it would have this feature. The reason for adding it to the navigation bar was to give the button a neat area to occupy without disrupting the flow of the webpage. After, I created an event handler in Javascript which listened for the anchor tag being clicked. Once clicked, the color-inverting class is toggled from the body, and the new state of colors depends on the inner HTML of the anchor tag. If the text was 'Dark Mode' before being clicked, the body will become black, and inversly, will become white if the text was 'Light Mode' before being clicked."
+  },
+  {
+    "id": 2,
+    "title": "Dynamic Blog Section",
+    "body": "All of the blog post features are first initialized in a JSON file. They are stored in their own respective objects, which are stored inside an array. In the script file, we fetch the data in this JSON file, which sends a copy of the array to the script file (think of the array as a package). After receiving the data, we loop through the array, and for every blog post present (for every object), we make an element for the blog title, a picture of the code, and post body. Those elements are then appended to a container on the blog page, in that order."
+  }
+]
