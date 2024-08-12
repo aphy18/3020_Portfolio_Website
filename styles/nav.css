@@ -25,3 +25,10 @@
   font-size: 1.5em;
 }
 
+@media(max-width: 1000px) {
+  .navigation-bar span,
+  .navigation-bar a {
+    font-size: 1em;
+  }
+}
+
